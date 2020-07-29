@@ -1,0 +1,18 @@
+/* New Page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog_title, .blog_content {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: #4e342e;
+  color: #fff;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
