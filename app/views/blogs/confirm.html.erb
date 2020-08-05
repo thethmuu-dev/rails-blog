@@ -1,0 +1,12 @@
+<h3>Edit with the following content.</h3>
+<%= form_with(model: @blog, local: true) do |form| %>
+<%= form.hidden_field :title %>
+<%= form.hidden_field :content %>
+<p>
+  Title: <%= @blog.title %>
+</p>
+<p>
+  Content: <%= @blog.content %>
+</p>
+<%= form.submit "Submit" %>
+<% end %>
